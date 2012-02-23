@@ -1,0 +1,577 @@
+# This German Language File: Copyright (C) 2012 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Thesis Toolbar Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Thesis Theme/Framework und Erweiterungen
+# sowie WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Thesis Toolbar\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/thesis-toolbar?forum_id=10\n"
+"POT-Creation-Date: 2012-02-22 17:04+0100\n"
+"PO-Revision-Date: 2012-02-22 21:54+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ thesis-toolbar
+#. translators: plugin header field 'Name'
+#: thesis-toolbar.php:0
+msgid "Thesis Toolbar"
+msgstr "Thesis Werkzeugleiste"
+
+#@ thesis-toolbar
+#. translators: plugin header field 'PluginURI'
+#: thesis-toolbar.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/thesis-toolbar/"
+msgstr "http://genesisthemes.de/plugins/thesis-toolbar/"
+
+#@ thesis-toolbar
+#. translators: plugin header field 'Description'
+#: thesis-toolbar.php:0
+msgid "This plugin adds useful admin links and resources for Thesis Theme/Framework to the WordPress Toolbar / Admin Bar."
+msgstr "Dieses Plugin fügt der WordPress Wergzeugleiste bzw. Adminbar nützliche Administratorenlinks und Ressourcen für das Thesis Theme bzw. Framework plus Child Themes bzw. Erweiterungen hinzu."
+
+#@ thesis-toolbar
+#. translators: plugin header field 'Author'
+#: thesis-toolbar.php:0
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#@ thesis-toolbar
+#. translators: plugin header field 'AuthorURI'
+#: thesis-toolbar.php:0
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+#@ thesis-toolbar
+#. translators: plugin header field 'Version'
+#: thesis-toolbar.php:0
+msgid "1.0"
+msgstr "1.0"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:61
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:62
+msgid "Support"
+msgstr "Hilfe und Unterstützung (Support)"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:63
+msgid "http://genesisthemes.de/en/donate/"
+msgstr "http://genesisthemes.de/spenden/"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:63
+msgid "Donate"
+msgstr "Spenden"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:117
+#: thesis-toolbar.php:119
+msgid "Thesis Support"
+msgstr "Thesis Support"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:123
+#: thesis-toolbar.php:125
+msgid "Search Forum"
+msgstr "Forum durchsuchen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:129
+#: thesis-toolbar.php:131
+msgid "My Subscribed Topics"
+msgstr "Meine abonnierten Themen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:135
+#: thesis-toolbar.php:137
+msgid "New Topics since last visit"
+msgstr "Neue Themen seit letztem Besuch"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:141
+#: thesis-toolbar.php:143
+msgid "New Topics Today"
+msgstr "Neue Themen heute"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:147
+#: thesis-toolbar.php:149
+msgid "User Account at Support Site"
+msgstr "Benutzerkonto bei Support-Seite"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:155
+#: thesis-toolbar.php:157
+msgid "User Guide"
+msgstr "Benutzerhandbuch"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:161
+#: thesis-toolbar.php:163
+msgid "Hook Reference"
+msgstr "Hook-Referenz"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:167
+#: thesis-toolbar.php:169
+msgid "Filter Reference"
+msgstr "Filter-Referenz"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:179
+#: thesis-toolbar.php:181
+msgid "Custom Loop API"
+msgstr "API für eigene Loops"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:187
+#: thesis-toolbar.php:189
+msgid "Tutorials"
+msgstr "Anleitungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:193
+#: thesis-toolbar.php:195
+#: thesis-toolbar.php:205
+#: thesis-toolbar.php:207
+msgid "Video Tutorials"
+msgstr "Video-Anleitungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:199
+#: thesis-toolbar.php:201
+msgid "Article Tutorials"
+msgstr "Artikel-Anleitungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:213
+#: thesis-toolbar.php:215
+msgid "Thesis HQ"
+msgstr "Thesis Zentrale"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:219
+msgid "Official Blog"
+msgstr "Offizieller Blog"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:221
+msgid "Official Blog (diythemes.com)"
+msgstr "Offizieller Blog (diythemes.com)"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:225
+msgid "Chris Pearson Blog"
+msgstr "Chris Pearsons Blog"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:227
+msgid "Chris Pearson Blog (Thesis Lead Dev - pearsonified.com)"
+msgstr "Chris Pearsons Blog (Thesis-Herausgeber - pearsonified.com)"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:231
+msgid "Derek Halpern Blog"
+msgstr "Derek Halperns Blog"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:233
+msgid "Derek Halpern Blog (Thesis Community Leader - socialtriggers.com)"
+msgstr "Derek Halperns Blog (Thesis Community - socialtriggers.com)"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:237
+#: thesis-toolbar.php:239
+msgid "Showcase Gallery"
+msgstr "Beispiele/ Showcase"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:243
+#: thesis-toolbar.php:245
+msgid "Affiliate Program"
+msgstr "Partnerprogramm"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:249
+#: thesis-toolbar.php:251
+msgid "Affiliate Login"
+msgstr "Affiliate-Login"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:255
+#: thesis-toolbar.php:257
+msgid "Free plugins/extensions at WP.org"
+msgstr "Freie Plugins/ Erweiterungen bei WP.org"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:273
+msgid "German language files"
+msgstr "Deutsche Sprachdateien"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:275
+msgid "German language files for Thesis Theme and more extensions"
+msgstr "Deutsche Sprachdateien für das Thesis Theme plus Erweiterungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:293
+#: thesis-toolbar.php:295
+msgid "Website Options"
+msgstr "Webseiten-Einstellungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:299
+#: thesis-toolbar.php:301
+msgid "Thesis Widgets"
+msgstr "Thesis Widgets"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:305
+#: thesis-toolbar.php:307
+msgid "Thesis Menus"
+msgstr "Thesis Menüs"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:313
+#: thesis-toolbar.php:315
+msgid "Design Options"
+msgstr "Design-Einstellungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:321
+#: thesis-toolbar.php:323
+msgid "Header Image"
+msgstr "Kopfzeilen-Bild"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:329
+#: thesis-toolbar.php:331
+msgid "Favicon Manager"
+msgstr "Favicon-Manager"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:337
+#: thesis-toolbar.php:339
+msgid "Custom Additions Editor"
+msgstr "Editor für eigene Dateien"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:364
+msgid "OpenHook Manager"
+msgstr "OpenHook-Manager"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:366
+msgid "OpenHook Manager (Plugin)"
+msgstr "OpenHook-Manager (Plugin)"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:373
+#: thesis-toolbar.php:375
+msgid "Export, Import, Reset"
+msgstr "Export, Import u. Zurücksetzen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:386
+#: thesis-toolbar.php:388
+msgid "Active Extensions"
+msgstr "Aktive Erweiterungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:419
+msgid "Thesis"
+msgstr "Thesis"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:421
+msgctxt "Translators: For the tooltip"
+msgid "Thesis Theme"
+msgstr "Thesis Theme/ Framework"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:24
+#: tstb-plugins.php:26
+msgid "Simple Header Widgets"
+msgstr "Einfache Kopfzeilen-Widgets"
+
+#@ thesis-toolbar
+#: tstb-themes.php:26
+msgid "Cinchpress Child Theme Settings"
+msgstr "Cinchpress Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:32
+msgid "Clip Cart Child Theme Settings"
+msgstr "Clip Cart Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:38
+msgid "Feedpop Child Theme Settings"
+msgstr "Feedpop Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:44
+msgid "Foxy News Child Theme Settings"
+msgstr "Foxy News Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:50
+msgid "Fremedy Child Theme Settings"
+msgstr "Fremedy Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:56
+msgid "Line It Up Child Theme Settings"
+msgstr "Line It Up Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:62
+msgid "MockFive Child Theme Settings"
+msgstr "MockFive Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:68
+msgid "Reactiv Child Theme Settings"
+msgstr "Reactiv Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:74
+msgid "Readyfolio Child Theme Settings"
+msgstr "Readyfolio Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:80
+msgid "Rough Print Child Theme Settings"
+msgstr "Rough Print Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:86
+msgid "Smooth Post Child Theme Settings"
+msgstr "Smooth Post Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:92
+msgid "Stage Child Theme Settings"
+msgstr "Stage Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:98
+msgid "Fresh Company Child Theme Settings"
+msgstr "Fresh Company Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:104
+msgid "Simple Life Child Theme Settings"
+msgstr "Simple Life Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:110
+msgid "Straight Shooter Child Theme Settings"
+msgstr "Straight Shooter Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:116
+msgid "Thesis Bold Child Theme Settings"
+msgstr "Thesis Bold Child Theme-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:131
+#: tstb-themes.php:133
+msgid "README Info"
+msgstr "LIESMICH-Informationen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:137
+#: tstb-themes.php:207
+#: tstb-themes.php:244
+#: tstb-themes.php:264
+msgid "Support Forum"
+msgstr "Support-Forum"
+
+#@ thesis-toolbar
+#: tstb-themes.php:146
+#: tstb-themes.php:148
+msgid "Custom Background"
+msgstr "Hintergrund anpassen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:156
+#: tstb-themes.php:158
+msgid "Custom Header"
+msgstr "Kopfzeile anpassen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:165
+#: tstb-themes.php:167
+msgid "Themedy Support Forum"
+msgstr "Themedy Support-Foren"
+
+#@ thesis-toolbar
+#: tstb-themes.php:171
+#: tstb-themes.php:173
+msgid "Themedy User Profile"
+msgstr "Themedy Benutzerprofil"
+
+#@ thesis-toolbar
+#: tstb-themes.php:189
+msgid "BlogSkin Settings"
+msgstr "BlogSkin Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:192
+msgid "Avenger Settings"
+msgstr "Avenger Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:195
+msgid "Silver Settings"
+msgstr "Silver Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:215
+#: tstb-themes.php:217
+msgid "ThesisAwesome Support Forum"
+msgstr "ThesisAwesome Support-Foren"
+
+#@ thesis-toolbar
+#: tstb-themes.php:139
+msgid "Support Forum for Child Theme"
+msgstr "Support-Forum für Child Theme"
+
+#@ thesis-toolbar
+#: tstb-themes.php:209
+#: tstb-themes.php:246
+#: tstb-themes.php:266
+msgid "Support Forum for Skin"
+msgstr "Support-Forum für Skin"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:39
+#: tstb-plugins.php:41
+msgid "Footer Tool"
+msgstr "Fußzeilen-Werkzeug"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:86
+#: tstb-plugins.php:88
+#: tstb-plugins.php:93
+#: tstb-plugins.php:95
+msgid "Restore Points"
+msgstr "Wiederherstellungspunkte"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:110
+#: tstb-plugins.php:112
+msgid "Settings Import/Export (Plugin)"
+msgstr "Einstellungen Import/Export (Plugin)"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:117
+#: tstb-plugins.php:119
+msgid "Settings Import/Export"
+msgstr "Einstellungen Import/Export"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:343
+msgid "File: custom.css"
+msgstr "Datei: custom.css"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:345
+msgctxt "Translators: For the tooltip"
+msgid "File: custom.css"
+msgstr "Benutzerdefinierte Datei: custom.css"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:349
+msgid "File: custom_functions.php"
+msgstr "Datei: custom_functions.php"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:351
+msgctxt "Translators: For the tooltip"
+msgid "File: custom_functions.php"
+msgstr "Benutzerdefinierte Datei: custom_functions.php"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:261
+msgid "Thesis News Planet"
+msgstr "Thesis Nachrichten Planet"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:263
+msgid "Thesis News Planet (official and community news via FriendFeed service)"
+msgstr "Thesis Nachrichten Planet (offizielle und Community-Nachrichten via FriendFeed-Dienst)"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:54
+msgid "Author hReview"
+msgstr "Autor-hReview"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:56
+msgid "Author hReview (Google Rich Snippets)"
+msgstr "Autor-hReview (Google Rich Snippets)"
+
+#@ thesis-toolbar
+#: tstb-plugins.php:69
+#: tstb-plugins.php:71
+msgid "Thesography Exif Options"
+msgstr "Thesography Exif-Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:232
+msgid "KolFolio Settings"
+msgstr "KolFolio Einstellungen"
+
+#@ thesis-toolbar
+#: tstb-themes.php:238
+#: tstb-themes.php:240
+#: tstb-themes.php:258
+#: tstb-themes.php:260
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#@ thesis-toolbar
+#: tstb-themes.php:250
+#: tstb-themes.php:252
+#: tstb-themes.php:270
+#: tstb-themes.php:272
+msgid "Support User Account"
+msgstr "Support Benutzerkonto"
+
+#@ thesis-toolbar
+#: tstb-themes.php:234
+msgid "KolFolio Skin Settings"
+msgstr "KolFolio Skin-Einstellungen"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:173
+#: thesis-toolbar.php:355
+msgid "custom.css Help"
+msgstr "custom.css Hilfe"
+
+#@ thesis-toolbar
+#: thesis-toolbar.php:175
+#: thesis-toolbar.php:357
+msgctxt "Translators: For the tooltip"
+msgid "custom.css Help"
+msgstr "custom.css Hilfe"
+
