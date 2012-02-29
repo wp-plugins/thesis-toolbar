@@ -1,7 +1,7 @@
 === Thesis Toolbar ===
 Contributors: daveshine
 Donate link: http://genesisthemes.de/en/donate/
-Tags: toolbar, tool bar, adminbar, admin bar, thesis, thesis theme, thesiswp, framework, administration, resources, links, theme, settings, manage, deckerweb
+Tags: toolbar, tool bar, adminbar, admin bar, thesis, thesis theme, thesiswp, framework, administration, resources, links, theme, settings, manage, deckerweb, ddwtoolbar
 Requires at least: 3.3
 Tested up to: 3.4-alpha
 Stable tag: 1.0
