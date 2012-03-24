@@ -11,112 +11,155 @@
  * @link       http://twitter.com/#!/deckerweb
  *
  * @since 1.0
+ * @version 1.1
  */
+
+/**
+ * "Theme Settings" String for all Child Themes
+ *
+ * @since 1.1
+ *
+ * @param $tstb_themesettings
+ */
+$tstb_themesettings = '&nbsp;' . __( 'Theme Settings', 'thesis-toolbar' );
+
+
+/**
+ * "Settings" String for all Skins
+ *
+ * @since 1.1
+ *
+ * @param $tstb_skinsettings
+ */
+$tstb_skinsettings = '&nbsp;' . __( 'Settings', 'thesis-toolbar' );
+
 
 /**
  * Display link to active Themedy or ThesisThemes Child theme settings page (premium, by Themedy or ThesisThemes)
  *
  * @since 1.0
+ * @version 1.1
+ *
+ * @param $themedy_child_name
+ * @param $themedy_child_forum
+ * @param $themedy_support
+ * @param $themedy_support_profile
  */
 if ( function_exists( 'themedy_load_styles' ) ) {
 
 	/** Check for Themedy or ThesisThemes Child Theme name */
-	// Themedy: Cinchpress (premium)
-	if ( get_current_theme() == 'Cinchpress Child Theme' ) {
-		$themedy_child_name = __( 'Cinchpress Child Theme Settings', 'thesis-toolbar' );
+		// Themedy: Cinchpress (premium)
+	if ( CHILD_THEME_NAME == 'Cinchpress' || get_current_theme() == 'Cinchpress Child Theme' ) {
+		$themedy_child_name = 'Cinchpress' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/cinchpress';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Clip Cart (premium)
-	} elseif ( get_current_theme() == 'Clip Cart Child Theme' ) {
-		$themedy_child_name = __( 'Clip Cart Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Clip Cart (premium)
+	} elseif ( CHILD_THEME_NAME == 'Clip Cart' || get_current_theme() == 'Clip Cart Child Theme' ) {
+		$themedy_child_name = 'Clip Cart' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/clip-cart';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Feedpop (premium)
-	} elseif ( get_current_theme() == 'Feedpop Child Theme' ) {
-		$themedy_child_name = __( 'Feedpop Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Feedpop (premium)
+	} elseif ( CHILD_THEME_NAME == 'Feedpop' || get_current_theme() == 'Feedpop Child Theme' ) {
+		$themedy_child_name = 'Feedpop' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/feedpop';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Foxy News (premium)
-	} elseif ( get_current_theme() == 'Foxy News Child Theme' ) {
-		$themedy_child_name = __( 'Foxy News Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Foxy News (premium)
+	} elseif ( CHILD_THEME_NAME == 'Foxy News' || get_current_theme() == 'Foxy News Child Theme' ) {
+		$themedy_child_name = 'Foxy News' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/foxynews';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Fremedy (free)
-	} elseif ( get_current_theme() == 'Fremedy Child Theme' ) {
-		$themedy_child_name = __( 'Fremedy Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Fremedy (free)
+	} elseif ( CHILD_THEME_NAME == 'Fremedy' || get_current_theme() == 'Fremedy Child Theme' ) {
+		$themedy_child_name = 'Fremedy' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/fremedy';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Line It Up (premium)
-	} elseif ( get_current_theme() == 'Line It Up Child Theme' ) {
-		$themedy_child_name = __( 'Line It Up Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Line It Up (premium)
+	} elseif ( CHILD_THEME_NAME == 'Line It Up' || get_current_theme() == 'Line It Up Child Theme' ) {
+		$themedy_child_name = 'Line It Up' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/line-it-up';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: MockFive (premium)
-	} elseif ( get_current_theme() == 'MockFive Child Theme' ) {
-		$themedy_child_name = __( 'MockFive Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: MockFive (premium)
+	} elseif ( CHILD_THEME_NAME == 'MockFive' || get_current_theme() == 'MockFive Child Theme' ) {
+		$themedy_child_name = 'MockFive' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/mockfive';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Reactiv (premium)
-	} elseif ( get_current_theme() == 'Reactiv Child Theme' ) {
-		$themedy_child_name = __( 'Reactiv Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Reactiv (premium)
+	} elseif ( CHILD_THEME_NAME == 'Reactiv' || get_current_theme() == 'Reactiv Child Theme' ) {
+		$themedy_child_name = 'Reactiv' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/reactiv';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Readyfolio (premium)
-	} elseif ( get_current_theme() == 'Readyfolio Child Theme' ) {
-		$themedy_child_name = __( 'Readyfolio Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Readyfolio (premium)
+	} elseif ( CHILD_THEME_NAME == 'Readyfolio' || get_current_theme() == 'Readyfolio Child Theme' ) {
+		$themedy_child_name = 'Readyfolio' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/readyfolio';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Rough Print (premium)
-	} elseif ( get_current_theme() == 'Rough Print Child Theme' ) {
-		$themedy_child_name = __( 'Rough Print Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Rough Print (premium)
+	} elseif ( CHILD_THEME_NAME == 'Rough Print' || get_current_theme() == 'Rough Print Child Theme' ) {
+		$themedy_child_name = 'Rough Print' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/rough-print';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Smooth Post (premium)
-	} elseif ( get_current_theme() == 'Smooth Post Child Theme' ) {
-		$themedy_child_name = __( 'Smooth Post Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Smooth Post (premium)
+	} elseif ( CHILD_THEME_NAME == 'Smooth Post' || get_current_theme() == 'Smooth Post Child Theme' ) {
+		$themedy_child_name = 'Smooth Post' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/smooth-post';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// Themedy: Stage (premium)
-	} elseif ( get_current_theme() == 'Stage Child Theme' ) {
-		$themedy_child_name = __( 'Stage Child Theme Settings', 'thesis-toolbar' );
+
+		// Themedy: Stage (premium)
+	} elseif ( CHILD_THEME_NAME == 'Stage' || get_current_theme() == 'Stage Child Theme' ) {
+		$themedy_child_name = 'Stage' . $tstb_themesettings;
 		$themedy_child_forum = 'http://themedy.com/forum/categories/stage';
 		$themedy_support = 'http://themedy.com/forum/';
 		$themedy_support_profile = 'http://themedy.com/forum/profile';
-	// ThesisThemes: Fresh Company (free)
-	} elseif ( get_current_theme() == 'Fresh Company Child Theme' ) {
-		$themedy_child_name = __( 'Fresh Company Child Theme Settings', 'thesis-toolbar' );
+
+		// ThesisThemes: Fresh Company (free)
+	} elseif ( CHILD_THEME_NAME == 'Fresh Company' || get_current_theme() == 'Fresh Company Child Theme' ) {
+		$themedy_child_name = 'Fresh Company' . $tstb_themesettings;
 		$themedy_child_forum = 'http://thesisthemes.com/support/categories/community-skin-support-for-our-free-skins';
 		$themedy_support = 'http://thesisthemes.com/support/';
 		$themedy_support_profile = 'http://thesisthemes.com/support/profile';
-	// ThesisThemes: Simple Life (free)
-	} elseif ( get_current_theme() == 'Simple Life Child Theme' ) {
-		$themedy_child_name = __( 'Simple Life Child Theme Settings', 'thesis-toolbar' );
+
+		// ThesisThemes: Simple Life (free)
+	} elseif ( CHILD_THEME_NAME == 'Simple Life' || get_current_theme() == 'Simple Life Child Theme' ) {
+		$themedy_child_name = 'Simple Life' . $tstb_themesettings;
 		$themedy_child_forum = 'http://thesisthemes.com/support/categories/community-skin-support-for-our-free-skins';
 		$themedy_support = 'http://thesisthemes.com/support/';
 		$themedy_support_profile = 'http://thesisthemes.com/support/profile';
-	// ThesisThemes: Straight Shooter (free)
-	} elseif ( get_current_theme() == 'Straight Shooter Child Theme' ) {
-		$themedy_child_name = __( 'Straight Shooter Child Theme Settings', 'thesis-toolbar' );
+
+		// ThesisThemes: Straight Shooter (free)
+	} elseif ( CHILD_THEME_NAME == 'Straight Shooter' || get_current_theme() == 'Straight Shooter Child Theme' ) {
+		$themedy_child_name = 'Straight Shooter' . $tstb_themesettings;
 		$themedy_child_forum = 'http://thesisthemes.com/support/categories/community-skin-support-for-our-free-skins';
 		$themedy_support = 'http://thesisthemes.com/support/';
 		$themedy_support_profile = 'http://thesisthemes.com/support/profile';
-	// ThesisThemes: Thesis Bold (free)
-	} elseif ( get_current_theme() == 'Thesis Bold Child Theme' ) {
-		$themedy_child_name = __( 'Thesis Bold Child Theme Settings', 'thesis-toolbar' );
+
+		// ThesisThemes: Thesis Bold (free)
+	} elseif ( CHILD_THEME_NAME == 'Thesis Bold' || get_current_theme() == 'Thesis Bold Child Theme' ) {
+		$themedy_child_name = 'Thesis Bold' . $tstb_themesettings;
 		$themedy_child_forum = 'http://thesisthemes.com/support/categories/community-skin-support-for-our-free-skins';
 		$themedy_support = 'http://thesisthemes.com/support/';
 		$themedy_support_profile = 'http://thesisthemes.com/support/profile';
+
 	}  // end-if Themedy and ThesisThemes Child name check
 
 	/** "Theme Group" menu items */
@@ -180,19 +223,25 @@ if ( function_exists( 'themedy_load_styles' ) ) {
  * Display link to active BlogSkin Skin settings page (premium, by ThesisAwesome)
  *
  * @since 1.0
+ * @version 1.1
+ *
+ * @param $thesisawesome_skin_name
  */
 if ( function_exists( 'ta_admin_options' ) ) {
 
 	/** Check for ThesisAwesome skin name */
-	// ThesisAwesome: BlogSkin (premium)
+		// ThesisAwesome: BlogSkin (premium)
 	if ( $themename = 'BlogSkin' ) {
-		$thesisawesome_skin_name = __( 'BlogSkin Settings', 'thesis-toolbar' );
-	// ThesisAwesome: Avenger (premium)
+		$thesisawesome_skin_name = 'BlogSkin' . $tstb_skinsettings;
+
+		// ThesisAwesome: Avenger (premium)
 	} elseif ( $themename = 'Avenger' ) {
-		$thesisawesome_skin_name = __( 'Avenger Settings', 'thesis-toolbar' );
-	// ThesisAwesome: Silver (premium)
+		$thesisawesome_skin_name = 'Avenger' . $tstb_skinsettings;
+
+		// ThesisAwesome: Silver (premium)
 	} elseif ( $themename = 'Silver' ) {
-		$thesisawesome_skin_name = __( 'Silver Settings', 'thesis-toolbar' );
+		$thesisawesome_skin_name = 'Silver' . $tstb_skinsettings;
+
 	}  // end-if ThesisAwesome check
 
 	/** "Theme Group" menu items */
@@ -216,6 +265,7 @@ if ( function_exists( 'ta_admin_options' ) ) {
 		'href'   => 'http://www.thesisawesome.com/support/',
 		'meta'   => array( 'title' => __( 'ThesisAwesome Support Forum', 'thesis-toolbar' ) )
 	);
+
 }  // end-if ThesisAwesome check
 
 
@@ -223,15 +273,16 @@ if ( function_exists( 'ta_admin_options' ) ) {
  * Display link to active KolFolio Skin settings page (free, by KolaKube.com)
  *
  * @since 1.0
+ * @version 1.0
  */
 if ( function_exists( 'kol_option' ) ) {
 
 	/** "Theme Group" menu items */
 	$menu_items['kolakubesettings'] = array(
 		'parent' => $tgroup,
-		'title'  => __( 'KolFolio Settings', 'thesis-toolbar' ),
+		'title'  => 'KolFolio' . $tstb_skinsettings,
 		'href'   => admin_url( 'admin.php?page=kolfolio' ),
-		'meta'   => array( 'target' => '', 'title' => __( 'KolFolio Skin Settings', 'thesis-toolbar' ) )
+		'meta'   => array( 'target' => '', 'title' => _x( 'KolFolio Skin Settings', 'Translators: For the tooltip', 'thesis-toolbar' ) )
 	);
 	$menu_items['kolakubesettings-docs'] = array(
 		'parent' => $kolakubesettings,
@@ -271,4 +322,5 @@ if ( function_exists( 'kol_option' ) ) {
 		'href'   => 'http://kolakube.com/forum/index.php?app=nexus&module=clients/',
 		'meta'   => array( 'title' => 'Kolakube ' . __( 'Support User Account', 'thesis-toolbar' ) )
 	);
+
 }  // end-if KolFolio check
