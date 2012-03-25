@@ -356,4 +356,4 @@ Just released into the wild.
 
 **Thesis News Planet** I also have started a little news/feed service via "FriendFeed" that you can subscribe to: http://friendfeed.com/thesisnews -- Please contact me via my Twitter for new resources (that have an RSS feed and are Thesis-related!)
 
-**Filters and Constants for Customizing** See FAQ section here or step up to out Gist on GitHub: https://gist.github.com/2181318 (you can also add comments there :)
+**Filters and Constants for Customizing** See FAQ section here or step up to out Gist on GitHub: https://gist.github.com/2181318 (you can also add your questions/ feedback there :)
